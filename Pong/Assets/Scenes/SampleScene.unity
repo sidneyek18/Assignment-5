@@ -967,7 +967,7 @@ GameObject:
   - component: {fileID: 718109610}
   - component: {fileID: 718109612}
   m_Layer: 0
-  m_Name: Square (2)
+  m_Name: AIScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1459,7 +1459,7 @@ GameObject:
   - component: {fileID: 919572060}
   - component: {fileID: 919572062}
   m_Layer: 0
-  m_Name: Circle
+  m_Name: Ball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1606,6 +1606,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18813b4d2b0076343ba987558676aacd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerScoreText: {fileID: 873730925}
+  AIScoreText: {fileID: 1269518652}
 --- !u!1 &1037545179
 GameObject:
   m_ObjectHideFlags: 0
@@ -1618,7 +1620,7 @@ GameObject:
   - component: {fileID: 1037545180}
   - component: {fileID: 1037545182}
   m_Layer: 0
-  m_Name: Square (3)
+  m_Name: PlayerScore
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
