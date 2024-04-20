@@ -28,7 +28,7 @@ public class Ball : MonoBehaviour
     {
         rigidbody.AddForce(transform.up * -speed, ForceMode2D.Impulse);
     }
-    
+
     //When the ball hits the green square increase the score and respawn the ball in the middle.
     void OnTriggerEnter2D(Collider2D collision)
     {
